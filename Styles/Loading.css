@@ -1,0 +1,40 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.modal2 {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+.center2 {
+    z-index: 1000;
+    margin: auto;
+    padding: 10px;
+    width: 140px;
+    opacity: 1;
+    background-color: White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+}
+
+.center2 img {
+    height: 120px;
+    width: 120px;
+}
+
+.offset-2 {
+    margin-left: 16.66666667%;
+}
